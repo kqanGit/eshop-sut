@@ -1,3 +1,20 @@
+# Nhóm kiểm thử — HW02 Domain Testing
+
+> Fork từ [ttbhanh/eshop-sut](https://github.com/ttbhanh/eshop-sut). Repo này dùng làm **trang GitHub Issues chung** của nhóm để báo bug cho HW02. Bài làm của từng thành viên nằm ở repo riêng.
+
+- Nhóm: <số/tên nhóm đã đăng ký với lớp>
+- Thành viên & phân công feature (mỗi người 1 feature / pool, không trùng):
+
+| MSSV | Họ tên | Pool A | Pool B | Pool C | Pool D |
+| ---- | ------ | ------ | ------ | ------ | ------ |
+| ...  | Quang  | FR-04 Hồ sơ cá nhân | FR-09 Mã giảm giá | FR-14 CRUD danh mục | Mobile – Đăng nhập |
+| ...  | Phúc   | FR-06 Chi tiết sản phẩm | FR-08 Checkout | FR-15 CRUD sản phẩm | Mobile – Giỏ hàng |
+| ...  | Quân   | FR-01 Đăng ký | FR-07 Giỏ hàng | FR-17 CRUD coupon | Mobile – Hồ sơ |
+
+- Báo bug: https://github.com/kqanGit/eshop-sut/issues — tiêu đề dạng `[FR-xx] Mô tả ngắn`, gắn label tên người + FR, đính kèm screenshot.
+
+---
+
 # Đặc tả Yêu cầu Hệ thống (System Requirements Specification)
 
 # EShop — Phiên bản dành cho Kiểm thử Phần mềm
