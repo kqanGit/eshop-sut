@@ -1,3 +1,4 @@
+import { API_URL } from "../api";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
@@ -13,7 +14,7 @@ export default function Home() {
     try {
       setErrorHtml("");
       const res = await axios.get(
-        `http://localhost:3000/api/products?search=${query}`,
+        `${API_URL}/products?search=${query}`,
       );
       if (typeof res.data === "string" && res.data.includes("<h1>")) {
         setErrorHtml(res.data);
